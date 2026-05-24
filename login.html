@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вхід - Лабораторна робота №1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100 bg-light">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">WebCalc</a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav text-center mt-3 mt-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Калькулятор</a></li>
+                        <li class="nav-item"><a class="nav-link" href="register.html">Реєстрація</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Вхід</a></li>
+                        <li class="nav-item"><a class="nav-link" href="profile.html">Профіль</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Про додаток</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow-1 container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow-sm border-0 rounded-3">
+                    <div class="card-header bg-primary text-white rounded-top-3 text-center py-3">
+                        <h4 class="mb-0">Вхід до системи</h4>
+                    </div>
+                    <div class="card-body p-4 bg-white">
+                        <form>
+                            <div class="mb-3">
+                                <label for="loginEmail" class="form-label">Email адреса</label>
+                                <input type="email" class="form-control" id="loginEmail" placeholder="name@example.com" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="loginPassword" class="form-label">Пароль</label>
+                                <input type="password" class="form-control" id="loginPassword" placeholder="Введіть пароль" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 py-2">Увійти</button>
+                        </form>
+                    </div>
+                    <div class="card-footer text-center bg-white border-0 pb-4">
+                        <small class="text-muted">Ще не маєте акаунту? <a href="register.html" class="text-decoration-none">Зареєструватися</a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-0">Лабораторна робота №1 | Виконав: студент групи КВ-34 Дука Михайло</p>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
